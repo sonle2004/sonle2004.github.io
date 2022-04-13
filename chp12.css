@@ -1,0 +1,155 @@
+title {
+  text-align: end;
+}
+
+body {
+  font-family: "Times New Roman", Helvetica, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  background-image: linear-gradient(#313131, #000000);
+}
+header {
+  background-color: #ffffff;
+  color: #5a1919;
+}
+main {
+  margin-left: 180px;
+}
+
+nav {
+  padding: 1.5em;
+  font-size: 100%;
+  float: left;
+  align-content: center;
+  width: 100px;
+  font-weight: bold;
+  background-color: #bbdefb;
+  background-image: linear-gradient(#ffffff, #920707);
+}
+
+nav a:link {
+  color: #0976e2;
+}
+nav a:visited {
+  color: #fffb00;
+}
+nav a:hover {
+  color: #ff0000;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: #f1f1d8;
+}
+.heat {
+  color: #ff0000;
+}
+.cool {
+  color: #0976e2;
+}
+footer {
+  background-image: linear-gradient(#ad0000, #006fa7);
+  font-size: 125%;
+  font-style: italic;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 1em;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  border: 3px solid #ffffff;
+  padding: 0%;
+}
+#halogo {
+  background-image: url(hvac3.png);
+  height: 205px;
+  width: 1050px;
+  padding-right: 0%;
+  background-repeat: no-repeat;
+  margin: auto;
+  border: 5px solid #000000;
+  padding: 0%;
+}
+
+.text {
+  text-align: center;
+  color: #0976e2;
+  background-color: #ffe600;
+}
+
+table,
+th,
+td {
+  border: 3px solid;
+}
+
+#service {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#service td,
+#service th {
+  border: 5px solid rgb(255, 255, 255);
+  padding: 5px;
+}
+
+#service tr:nth-child(even) {
+  background-color: #910000;
+}
+
+#service tr:hover {
+  background-color: rgb(0, 255, 64);
+}
+
+form {
+  display: block;
+
+  display: table-caption;
+}
+
+label {
+  float: left;
+  display: block;
+  text-align: left;
+  width: 240px;
+  padding-right: 5px;
+}
+
+input,
+text {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+input,
+textarea {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  color: rgb(151, 0, 0);
+  width: 350px;
+  box-sizing: border-box;
+}
+
+input,
+button {
+  width: 100%;
+  background-color: #a8a8a8;
+  color: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  cursor: pointer;
+}

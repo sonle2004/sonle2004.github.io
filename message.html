@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        DTC Mechanical Message Page
+    </title>
+    <meta charset="utf-8">
+    <link href="chp12.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Leave a comment!</h1>
+    </header>
+
+    <a href="index.html">
+        <div id="halogo">
+        </div>
+    </a>
+
+    <h3><span class="heat">Comments</span> or
+        <span class="cool">Feedbacks</span>
+    </h3>
+    <nav>
+
+
+        <h2>Proudly serves the Community since <b>2010</b>.</h2>&nbsp;
+
+        <a href="index.html">Home</a>&nbsp;<br>
+        <a href="service.html">Service</a>&nbsp;<br>
+        <a href="message.html">Leave a message</a>&nbsp;
+
+
+    </nav>
+
+    <main>
+
+
+        <h2>Please use the form below for additional information</h2>
+
+        <p>Required fields are marked with an asterisk *.</p>
+
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+
+            <label for="fullname">* Full Name:</label>
+            <input type="text" name="contact" id="fullname" required>
+
+            <label for="email"> E-Mail Address:</label>
+            <input type="email" name="myEmail" id="email">
+
+            <label for="tel">* Phone Number:</label>
+            <input type="tel" name="myPhone" id="tel" maxlength="12" required>
+
+            <p>Check all that applied:</p>
+            <label for="com"> Is this a commercial building? </label>
+            <input type="checkbox" id="com" name="commericial" value="This is a Commercial building">
+            
+            <label for="res"> Is this a residential building? </label>
+            <input type="checkbox" id="res" name="residential" value="This is a Residential building">
+            
+            <label for="security"> Would the tech need to call in before arrival for access?</label>
+            <input type="checkbox" id="security" name="security" value="Please check in or call before arrival">
+            
+
+            <br>
+            <br>
+            &nbsp;
+            <label for="myComments">Brief Message:</label>
+            <textarea name="myComments" id="myComments" cols="30" rows="5" required></textarea>
+
+            <input type="submit">
+
+        </form>
+
+
+
+
+
+
+
+        <div id="contact">
+            <h3>DTC Mechanical</h3>
+            550 E 300 S<br>
+            Kaysville, UT 84037 <br>
+            Bldg # 2011 <br>
+            <br>
+            <b>For information:</b> (801) 555 2320 <br>
+            <b>Emergency 24/7: </b> (801) 726 6666 <br>
+            <br>
+        </div>
+
+        <footer>
+            <small><i>
+                    Copyright &copy; 2022 DTC Mech.<br>
+                    <a href="mailto:son.le@davistech.edu">
+                        son.le@davistech.edu</a>
+                </i></small>
+
+        </footer>
+    </main>
+</body>
+
+</html>
